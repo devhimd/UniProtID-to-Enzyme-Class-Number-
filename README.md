@@ -1,0 +1,1 @@
+# UniProtID-to-Enzyme-Class-Number-
