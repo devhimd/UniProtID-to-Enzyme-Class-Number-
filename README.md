@@ -1,6 +1,6 @@
 # UniProtID-to-Enzyme-Class-Number-
 
-Python code to retrieve EC Number for the given UniProtID . The information of the Enzyme Class is obtained from the Rhea Database
+Python code to retrieve EC Number for the given UniProtID . The information of the Enzyme Class is obtained from the Rhea Database.
 
 Input: A text file containing UniProt ID
 Output: CSV File containing the UniProtID , EC Number and the EC Class
