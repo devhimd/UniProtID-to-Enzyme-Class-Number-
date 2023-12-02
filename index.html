@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>EC Numbers Output</title>
+</head>
+<body>
+    <h1>EC Numbers Output</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>UniProt ID</th>
+                <th>EC Numbers</th>
+                <th>EC Categories</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for uniprot_id, ec_numbers, ec_categories in results.items() %}
+                <tr>
+                    <td>{{ uniprot_id }}</td>
+                    <td>{{ ','.join(ec_numbers) }}</td>
+                    <td>{{ ','.join(ec_categories) }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>
+
